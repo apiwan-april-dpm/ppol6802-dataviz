@@ -1,8 +1,3 @@
-library(readxl)
-literacy_educationshare <- read_excel("Desktop/DataViz/Data/literacy-educationshare.xls", 
-                                      sheet = "clean")
-View(literacy_educationshare)
-
 library(ggplot2)
 ggplot(data = literacy_educationshare, 
        aes(x = education_share, y = literacy_rate, size = gdp_per_cap))+
