@@ -1,4 +1,3 @@
-
 library(janitor)
 agriculture_share2 <- clean_names(agriculture_share_gdp)
 
